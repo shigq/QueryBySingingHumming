@@ -44,7 +44,7 @@ Binaries compiled for win32 of SDHBuildModel.exe, SDHumming.exe and SDFuzzySearc
 Folder .\Jang48plus2000noiseESSEN
 ---------------------------------
 
-A collection of 48 midi files (taken from Jang's dataset [3]) PLUS 2000 extra songs taken from ESSEN collection [4].
+A ZIP file containing a collection of 48 midi files (taken from Jang's dataset [3]) PLUS 2000 extra songs taken from ESSEN collection [4].
 
 
 
