@@ -52,7 +52,7 @@ A ZIP file containing a collection of 48 midi files (taken from Jang's dataset [
 Folder .\WAVqueries
 -------------------
 
-Five .WAV queries, correponding to the MIDI file with same name (e.g. 00013.wav --> 00013.mid). These .WAV queries are taken from Jang's dataset [].
+Five .WAV queries, correponding to the MIDI file with same name (e.g. 00013.wav --> 00013.mid). These .WAV queries are taken from Jang's dataset [3].
 
 
 
