@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SDFuzzySearch", "SDFuzzySearch\SDFuzzySearch.vcxproj", "{D88DEFFC-7162-4D50-9177-E66156595B54}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SDHBuildModel", "SDHBuildModel\SDHBuildModel.vcxproj", "{A1E01D78-5865-49DA-BDEB-7F2C77FBBF60}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SDHumming", "SDHumming\SDHumming.vcxproj", "{8A8EDC00-A2AC-423B-B3B8-F9A4561455DC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D88DEFFC-7162-4D50-9177-E66156595B54} = {D88DEFFC-7162-4D50-9177-E66156595B54}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D88DEFFC-7162-4D50-9177-E66156595B54}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D88DEFFC-7162-4D50-9177-E66156595B54}.Debug|Win32.Build.0 = Debug|Win32
+		{D88DEFFC-7162-4D50-9177-E66156595B54}.Release|Win32.ActiveCfg = Release|Win32
+		{D88DEFFC-7162-4D50-9177-E66156595B54}.Release|Win32.Build.0 = Release|Win32
+		{A1E01D78-5865-49DA-BDEB-7F2C77FBBF60}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A1E01D78-5865-49DA-BDEB-7F2C77FBBF60}.Debug|Win32.Build.0 = Debug|Win32
+		{A1E01D78-5865-49DA-BDEB-7F2C77FBBF60}.Release|Win32.ActiveCfg = Release|Win32
+		{A1E01D78-5865-49DA-BDEB-7F2C77FBBF60}.Release|Win32.Build.0 = Release|Win32
+		{8A8EDC00-A2AC-423B-B3B8-F9A4561455DC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8A8EDC00-A2AC-423B-B3B8-F9A4561455DC}.Debug|Win32.Build.0 = Debug|Win32
+		{8A8EDC00-A2AC-423B-B3B8-F9A4561455DC}.Release|Win32.ActiveCfg = Release|Win32
+		{8A8EDC00-A2AC-423B-B3B8-F9A4561455DC}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,49 @@
+﻿Build started 25/03/2014 10:25:36.
+     1>Project "C:\Users\emiliomm\Documents\Librerias y software de otros\LeiWang_QueryByHumming_Opensource\Organized\src\QBSH_win32_vc2010\SDHumming\SDHumming.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\SDHumming.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\SDFuzzySearch /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt SDSP.cpp SMelody.cpp SModel.cpp STester.cpp SUtil.cpp
+         SUtil.cpp
+     1>c:\users\emiliomm\documents\librerias y software de otros\leiwang_querybyhumming_opensource\organized\src\qbsh_win32_vc2010\sdhumming\sutil.cpp(35): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+         STester.cpp
+     1>c:\users\emiliomm\documents\librerias y software de otros\leiwang_querybyhumming_opensource\organized\src\qbsh_win32_vc2010\sdhumming\stester.cpp(99): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+         SModel.cpp
+     1>c:\users\emiliomm\documents\librerias y software de otros\leiwang_querybyhumming_opensource\organized\src\qbsh_win32_vc2010\sdhumming\smodel.cpp(19): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+         SMelody.cpp
+     1>c:\users\emiliomm\documents\librerias y software de otros\leiwang_querybyhumming_opensource\organized\src\qbsh_win32_vc2010\sdhumming\smelody.cpp(98): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\users\emiliomm\documents\librerias y software de otros\leiwang_querybyhumming_opensource\organized\src\qbsh_win32_vc2010\sdhumming\smelody.cpp(117): warning C4244: '=' : conversion from 'double' to 'short', possible loss of data
+         SDSP.cpp
+         Generating Code...
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\SDHumming.exe.embed.manifest.res" Debug\SDHumming_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\emiliomm\Documents\Librerias y software de otros\LeiWang_QueryByHumming_Opensource\Organized\src\QBSH_win32_vc2010\Debug\SDHumming.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\Debug sdfuzzysearch.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\SDHumming.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\emiliomm\Documents\Librerias y software de otros\LeiWang_QueryByHumming_Opensource\Organized\src\QBSH_win32_vc2010\Debug\SDHumming.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\emiliomm\Documents\Librerias y software de otros\LeiWang_QueryByHumming_Opensource\Organized\src\QBSH_win32_vc2010\Debug\SDHumming.lib" /MACHINE:X86 Debug\SDHumming.exe.embed.manifest.res
+         Debug\SDSP.obj
+         Debug\SMelody.obj
+         Debug\SModel.obj
+         Debug\STester.obj
+         Debug\SUtil.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\SDHumming.exe.embed.manifest" /manifest Debug\SDHumming.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\SDHumming.exe.embed.manifest.res" Debug\SDHumming_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\emiliomm\Documents\Librerias y software de otros\LeiWang_QueryByHumming_Opensource\Organized\src\QBSH_win32_vc2010\Debug\SDHumming.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\Debug sdfuzzysearch.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\SDHumming.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\emiliomm\Documents\Librerias y software de otros\LeiWang_QueryByHumming_Opensource\Organized\src\QBSH_win32_vc2010\Debug\SDHumming.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\emiliomm\Documents\Librerias y software de otros\LeiWang_QueryByHumming_Opensource\Organized\src\QBSH_win32_vc2010\Debug\SDHumming.lib" /MACHINE:X86 Debug\SDHumming.exe.embed.manifest.res
+         Debug\SDSP.obj
+         Debug\SMelody.obj
+         Debug\SModel.obj
+         Debug\STester.obj
+         Debug\SUtil.obj
+         SDHumming.vcxproj -> C:\Users\emiliomm\Documents\Librerias y software de otros\LeiWang_QueryByHumming_Opensource\Organized\src\QBSH_win32_vc2010\Debug\SDHumming.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\SDHumming.unsuccessfulbuild".
+         Touching "Debug\SDHumming.lastbuildstate".
+     1>Done Building Project "C:\Users\emiliomm\Documents\Librerias y software de otros\LeiWang_QueryByHumming_Opensource\Organized\src\QBSH_win32_vc2010\SDHumming\SDHumming.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.91
